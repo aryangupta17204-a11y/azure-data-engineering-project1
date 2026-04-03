@@ -1,0 +1,6 @@
+selected resource name:		data ingestion pipeline
+selected resource type:		pipeline
+factory name:			olist-ecomm-data-factory-aryan
+factory location:		centralindia
+subscription id:		343ba837-546e-482f-8396-c2b4d540f8c2
+time of download (UTC):		Thu, 02 Apr 2026 19:05:15 GMT
