@@ -30,3 +30,25 @@ This is a **complete end-to-end data engineering pipeline** built on Microsoft A
 
 ## 🏗️ Architecture
 <img width="1222" height="653" alt="image" src="https://github.com/user-attachments/assets/f24e43f1-3d23-488a-8629-2099f82367cf" />
+
+## 📁 Medallion Layers Explained
+
+| Layer | Purpose | Actions |
+|-------|---------|---------|
+| **Bronze** | Raw, unprocessed data | CSV ingestion, MongoDB import |
+| **Silver** | Cleaned, validated, enriched | Null handling, deduplication, data type correction, enrichment with geolocation |
+| **Gold** | Business-ready aggregates | Customer 360 views, sales KPIs, product category performance |
+
+## 🛠️ Tech Stack
+
+| Category | Tools |
+|----------|-------|
+| **Orchestration & Ingestion** | Azure Data Factory (ADF) |
+| **Storage** | Azure Data Lake Storage (ADLS) Gen2 |
+| **Processing & Transformation** | Azure Databricks (Apache Spark) |
+| **Analytics & Serving** | Azure Synapse Analytics (Serverless SQL) |
+| **Data Sources** | MongoDB, Olist CSV files |
+| **Languages** | Python (PySpark), SQL |
+
+
+
